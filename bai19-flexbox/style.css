@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #CCC;
+}
+
+.child-1{
+    background-color: red;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.child-2{
+    background-color: green;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+
+.container-swap .child-1{
+    order: 1;
+}

@@ -1,0 +1,13 @@
+=> Các thuộc tính thằng cha 
+justify-content: căn chỉnh khoảng cách các thằng con 
+    flex-start* | flex-end | center | space-between | space-around | space-evenly
+align-items: căn chỉnh theo chiều vuông góc của cột hiện tại 
+    flex-start | flex-end | center | baseline | stretch*
+
+=> Các thuộc tính thằng con 
+    flex-basis:     <lenght> độ rộng của thằng con 
+    flex-grow: 0* | <number> hoạt đồng khi có độ rộng nhỏ hơn độ rộng thằng cha, 
+                             phân bổ thằng con theo độ rộng còn thừa của thằng cha.
+    flex-shrink: 1* | <number> 
+    order: 0* | <number>
+

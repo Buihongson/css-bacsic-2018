@@ -1,0 +1,47 @@
+body{
+    background-color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    display: flex;
+    background-color: dodgerblue;
+    color: white;
+    align-items: center;
+    padding: 18px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .14);
+    position: fixed;
+    width: 100%;
+    transition: 450ms ease;
+    z-index: 1000;
+}
+
+#menu.thunho{
+    padding: 6px 22px;
+    background-color: #245474;
+}
+
+#menu .logo h1{
+    margin: 0;
+}
+
+#menu .list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#menu .list .item{
+    margin: 0 1rem;
+}
+
+.container{
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

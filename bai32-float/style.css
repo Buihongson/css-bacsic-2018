@@ -1,0 +1,18 @@
+.header{
+    height: 80px;
+}
+
+.side-bar{
+    float: left;
+    widows: 20%;
+}
+
+.wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer{
+    height: 100px;
+}
